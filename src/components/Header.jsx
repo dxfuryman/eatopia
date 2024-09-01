@@ -1,4 +1,5 @@
 import logoImg from '../assets/logo.jpg'
+import {CustomButton} from "./UI/Button.jsx";
 
 export const Header = () => {
     return (
@@ -9,7 +10,8 @@ export const Header = () => {
                 <h1>Eatopia</h1>
             </div>
             <nav>
-                <button>Cart (0)</button>
+                <CustomButton textOnly>Cart (0)</CustomButton>
+
             </nav>
         </header>
         </>
